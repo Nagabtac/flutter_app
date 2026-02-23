@@ -52,8 +52,8 @@ void main(){
   Student stud1 = Student(id:1, name: "nagabtac");
   print(stud1.name);
 
-  var futureData = await fethData();
-  print(futureData);
+  // var futureData = await fethData();
+  // print(futureData);
 }
   int sum(int num1, int num2){
     return num1+num2;
@@ -76,6 +76,6 @@ void main(){
     Student({required this.id, this.name});
   }
 
-  Future<String> fetchData(){
-  await Future.delayed();
-  }
+  // Future<String> fetchData(){
+  // await Future.delayed();
+  // }
